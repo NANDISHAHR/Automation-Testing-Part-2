@@ -1,0 +1,17 @@
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxBinary;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class demo {
+
+	public static void main(String[] args) {
+		System.out.println("Hello");
+		//System.setProperty("webdriver.chrome.driver", "C:\\Users\\nandish.h.r\\browserdriver\\chromedriver.exe");
+		System.setProperty("webdriver.gecko.driver", "C:\\Users\\nandish.h.r\\browserdriver\\geckodriver.exe");
+		//ChromeDriver driver = new ChromeDriver();
+		FirefoxDriver driver= new FirefoxDriver();
+		driver.get("https://www.google.com");
+
+	}
+
+}
